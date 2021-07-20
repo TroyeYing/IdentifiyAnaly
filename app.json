@@ -1,14 +1,38 @@
 {
     "pages": [
-        "pages/Identifyanaly/index",
+        "pages/home/index",
+        "pages/function/Identifyanaly/index",
         "pages/index/index",
         "pages/scan/scan",
         "pages/result/index",
-        "pages/trace/index",
-        "pages/record/index",
-        "pages/qualification/index",
-        "pages/feedback/index"
+        "pages/function/trace/index",
+        "pages/function/record/index",
+        "pages/function/qualification/index",
+        "pages/function/feedback/index",
+        "pages/mine/mine/index"
     ],
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/home/index",
+                "iconPath": "/images/home.png",
+                "selectedIconPath": "/images/home_active.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/function/Identifyanaly/index",
+                "iconPath": "/images/function.png",
+                "selectedIconPath": "/images/function_active.png",
+                "text": "功能"
+            },
+            {
+                "pagePath": "pages/mine/mine/index",
+                "iconPath": "/images/mine.png",
+                "selectedIconPath": "/images/mine_active.png",
+                "text": "个人中心"
+            }
+        ]
+    },
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#054ABF",
