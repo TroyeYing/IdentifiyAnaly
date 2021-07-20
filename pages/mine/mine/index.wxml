@@ -1,2 +1,29 @@
-<!--pages/mine/mine/index.wxml-->
-<text>pages/mine/mine/index.wxml</text>
+<view class="userInfo_content">
+  <view class="avarar_img">
+    <view class="img_avatar">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+
+  </view>
+  <view class="username">
+    小影子
+  </view>
+</view>
+<view>
+  <view class="view-item" bindtap='clickCollect'>
+    <image src='/images/personMsg.png'></image>
+    <text>个人信息</text>
+    <image src='/images/arrow.png' class="view_item_enter"></image>
+  </view>
+  <view class="view-item" bindtap='handleAccount'>
+    <image src='/images/account.png'></image>
+    <text>账号管理</text>
+    <image src='/images/arrow.png' class="view_item_enter"></image>
+  </view>
+  <view class="view-item" bindtap='clickAboutus'>
+    <image src='/images/abourUs.png'></image>
+    <text>关于我们</text>
+    <image src='/images/arrow.png' class="view_item_enter"></image>
+  </view>
+
+</view>

@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/login/index",
         "pages/home/index",
         "pages/function/Identifyanaly/index",
         "pages/index/index",
@@ -9,9 +10,15 @@
         "pages/function/record/index",
         "pages/function/qualification/index",
         "pages/function/feedback/index",
-        "pages/mine/mine/index"
+        "pages/mine/mine/index",
+        "pages/mine/mineInfo/index",
+        "pages/mine/aboutUs/index",
+        "pages/mine/account/index",
+        "pages/funcitem/index"
+
     ],
     "tabBar": {
+        "selectedColor": "#054ABF",  
         "list": [
             {
                 "pagePath": "pages/home/index",
@@ -20,7 +27,7 @@
                 "text": "首页"
             },
             {
-                "pagePath": "pages/function/Identifyanaly/index",
+                "pagePath": "pages/funcitem/index",
                 "iconPath": "/images/function.png",
                 "selectedIconPath": "/images/function_active.png",
                 "text": "功能"

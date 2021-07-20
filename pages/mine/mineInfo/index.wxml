@@ -1,0 +1,21 @@
+<view class="container">
+ 
+    <view class="text_content">
+        <text class="title">个人信息</text>
+    </view>
+    <view class="data">
+        <view class="data_content">
+            <text class="label">姓名:</text>{{data.name}}
+        </view>
+        <view class="data_content">
+            <text class="label">性别:</text>{{data.sex}}
+        </view>
+        <view class="data_content">
+            <text class="label">电话:</text>{{data.phone}}
+        </view>
+        <view class="data_content">
+            <text class="label">公司:</text>{{data.company}}
+        </view>
+    </view>
+   
+</view>

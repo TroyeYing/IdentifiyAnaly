@@ -1,2 +1,40 @@
-<!--pages/home/index.wxml-->
-<text>pages/home/index.wxml</text>
+<view class="icontainer">
+  <view class="top">
+    <input class="input" name="userName" placeholder="搜索标识" bindinput="userNameInput" />
+    <image src="/images/scan1.png" class="img" bindtap="change"></image>
+  </view>
+  <view class="swiper-container">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+      circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+      <block wx:for="{{imgUrls}}" wx:key="unique">
+        <swiper-item>
+          <image src="{{item}}" class="picture" bindtap="swipclick" style="width:100%"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- list container -->
+  <view class="cardList">
+    <view class="card" bindtap="getInfo">
+      <view class="cardLabel pNo">产品编号:0x00000</view>
+      <view class="cardLabel pName">产品名称:0x00000</view>
+      <view class="cardLabel pProgress">当前流程:0x00000</view>
+      <view class="cardLabel pDate">更新时间:1970-01-01 00:00:00</view>
+      <view class="cardLabel showDetail">查看详情</view>
+    </view>
+    <view class="card" bindtap="getInfo">
+      <view class="cardLabel pNo">产品编号:0x00000</view>
+      <view class="cardLabel pName">产品名称:0x00000</view>
+      <view class="cardLabel pProgress">当前流程:0x00000</view>
+      <view class="cardLabel pDate">更新时间:1970-01-01 00:00:00</view>
+      <view class="cardLabel showDetail">查看详情</view>
+    </view>
+    <view class="card" bindtap="getInfo">
+      <view class="cardLabel pNo">产品编号:0x00000</view>
+      <view class="cardLabel pName">产品名称:0x00000</view>
+      <view class="cardLabel pProgress">当前流程:0x00000</view>
+      <view class="cardLabel pDate">更新时间:1970-01-01 00:00:00</view>
+      <view class="cardLabel showDetail">查看详情</view>
+    </view>
+  </view>
+</view>

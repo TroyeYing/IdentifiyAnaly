@@ -1,0 +1,40 @@
+<view class="user_content">
+    <view class="img_avatar">
+        <open-data type="userAvatarUrl">
+        </open-data>
+    </view>
+    <view class="text_msg">
+        <open-data type="userNickName"></open-data>
+    </view>
+</view>
+<view class="msgBottom">
+    <!-- <scroll-view class="tab" scroll-x="true">
+    <view class="tabLeft {{type=='login'?'active':' '}}" data-type="login" bindtap="changeTab">
+     登录
+    </view>
+    <view class="tabLeft {{type=='register'?'active':' '}}" data-type="register" bindtap="changeTab">
+     注册
+    </view>
+  </scroll-view> -->
+    <scroll-view class="login_content">
+        <view wx:if="{{type=='login'}}">
+            <!-- <text class="input_title">用户名:</text> -->
+            <input type="text" value="admin"  placeholder="用户名" placeholder-class="input-placeholder" class="input"></input>
+            <!-- <text class="input_title">密码:</text> -->
+            <input type="password" value="111111"  placeholder="密码" placeholder-class="input-placeholder" class="input"></input>
+            <view class="login" bindtap="login">登录</view>
+        </view>
+        <!-- <view wx:if="{{type=='register'}}"  >
+      <text class="input_title">用户名:</text>
+      <input type="text" class="input"></input>
+      <text class="input_title">密码:</text>
+      <input type="password" class="input"></input>
+      <text class="input_title">确认密码:</text>
+      <input type="password" class="input"></input>
+      <text class="input_title">手机号:</text>
+      <input type="手机号" class="input"></input>
+      <view class="login" >注册</view>
+    </view> -->
+    </scroll-view>
+
+</view>

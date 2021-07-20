@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/mine/account/index.js
 Page({
 
     /**

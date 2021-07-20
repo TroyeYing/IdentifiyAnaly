@@ -53,7 +53,8 @@ Page({
         isScan: false
       })
       wx.navigateTo({
-        url: '/pages/result/index?result=' + res,
+        // url: '/pages/result/index?result=' + res,
+        url:"../function/trace/index"
       });
     }
 

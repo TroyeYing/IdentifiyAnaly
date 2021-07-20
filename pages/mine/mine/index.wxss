@@ -1,1 +1,65 @@
-/* pages/mine/mine/index.wxss */
+/* pages/mine/mine/index.wxss *//* pages/deploy/deploy.wxss */
+.userInfo_content{
+    padding: 50rpx;
+    margin: 20rpx;
+    display: flex;
+    border: 1rpx solid rgba(0,0,0,.1);
+    box-shadow: 0 2rpx 5rpx 5rpx rgb(0,0,0,.1);
+    border-radius: 10rpx;
+    margin-bottom: 80rpx;
+  }
+  
+  .avarar_img{
+    flex: 1;
+  }
+  
+  .img_avatar{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .username{
+    flex: 5;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin-left:20rpx;
+  }
+  
+  
+  .view-item {
+    /* margin-top: 20px; */
+    /* box-shadow: 0 1px 2px 0 rgba(0,0,0,.05); */
+    /* border: 1px solid #eee; */
+    display: flex;
+    padding: 30rpx 20rpx;
+  }
+  
+  .view-item image{
+    align-self: center;
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 30rpx;
+    margin-left: 30rpx;
+  }
+  
+  .view-item text{
+    flex: 1;
+    font-size: 28rpx;
+    color: rgb(99,99,99);
+  
+  }
+  
+  button {
+    background-color: #e4e4e4;
+    font-size: 28rpx;
+    margin: 60rpx;
+  }
+  
+  .view-item  .view_item_enter{
+    width: 20rpx;
+    height: 30rpx;
+  }
+  
+  
