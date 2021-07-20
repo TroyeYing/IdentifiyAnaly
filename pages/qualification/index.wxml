@@ -1,0 +1,13 @@
+<view class="p_container">
+    <view class="content">
+        <image src="/images/qualification1.jpg"></image>
+    </view>
+
+    <image src="/images/qualification2.jpg"></image>
+    <image src="/images/qualification3.jpg"></image>
+    <image src="/images/qualification4.jpg"></image>
+    <image src="/images/qualification5.jpg"></image>
+    <image src="/images/qualification6.jpg"></image>
+
+
+</view>

@@ -1,0 +1,43 @@
+<view class="icontainer">
+    <view class="container_avatar">
+        <view class="avatarView">
+            <open-data type="userAvatarUrl" class="avatar"></open-data>
+        </view>
+        <view class="userNickName">
+            <!-- <open-data type="userNickName" lang="zh_CN"></open-data> -->
+        </view>
+    </view>
+    <!-- <view class="container_title">
+        <text>标识解析.产品溯源</text>
+    </view> -->
+    <view class="proName">
+        <text>产品名称: </text><text> 有机硅防水剂</text>
+    </view>
+    <view class="contentName" bindtap="proTrace" style="margin-top:50rpx">
+        <image src="/images/trace.png" class="contentimage"></image>
+        <text class="title">产品追溯</text>
+        <image src="/images/arrow.png" class="contentarrow"></image>
+        <!-- <text class="info">详细信息</text> -->
+    </view>
+    <view class="contentName" bindtap="proRecord">
+        <image src="/images/record.png" class="contentimage"></image>
+        <text class="title">鉴真记录</text>
+        <image src="/images/arrow.png" class="contentarrow"></image>
+    </view>
+    <view class="contentName">
+        <image src="/images/proInfo.png" class="contentimage"></image>
+        <text class="title">产品说明</text>
+        <image src="/images/arrow.png" class="contentarrow"></image>
+    </view>
+    <view class="contentName" bindtap="proQualification">
+        <image src="/images/qualification.png" class="contentimage"></image>
+        <text class="title">资质证书</text>
+        <image src="/images/arrow.png" class="contentarrow"></image>
+    </view>
+    <view class="contentName feedback" bindtap="feedback">
+        <image src="/images/feedback.png" class="contentimage"></image>
+        <text class="title">问题反馈</text>
+        <image src="/images/arrow.png" class="contentarrow"></image>
+    </view>
+
+</view>

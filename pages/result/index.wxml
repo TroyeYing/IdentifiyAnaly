@@ -1,0 +1,49 @@
+<view class="container">
+    <view class="text_content">
+        <text class="title">产品图片</text>
+    </view>
+    <view class="content">
+        <view class="content_img">
+            <image src="/images/product1.png"></image>
+        </view>
+        <view class="content_img content_image">
+            <image src="/images/product2.png"></image>
+        </view>
+    </view>
+    <view class="text_content">
+        <text class="title">产品信息</text>
+    </view>
+    <view class="data">
+        <view class="data_content">
+            <text class="label">产品名称:</text>{{data.name}}
+        </view>
+        <view class="data_content">
+            <text class="label">净含量:</text>{{data.weight}}
+        </view>
+        <view class="data_content">
+            <text class="label">生产日期:</text>{{data.productDate}}
+        </view>
+    </view>
+    <view class="text_content">
+        <text class="title">生产流程</text>
+    </view>
+    <view class="data">
+        <view class="data_content">
+            <text class="label">阶段一:</text>{{data.step1}}
+        </view>
+        <view class="data_content">
+            <text class="label">阶段二:</text>{{data.step2}}
+        </view>
+        <view class="data_content">
+            <text class="label">阶段三:</text>{{data.step3}}
+        </view>
+    </view>
+    <view class="text_content">
+        <text class="title">产品证书</text>
+    </view>
+    <view class="data">
+        <view class="data_content">
+            <text class="label">阶段一:</text>{{data.step1}}
+        </view>
+    </view>
+</view>

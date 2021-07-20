@@ -1,0 +1,12 @@
+.p_container{
+    padding: 40rpx;
+    /* display: flex; */
+}
+.content{
+   width: 100%;
+}
+image{
+    width: 500rpx;
+    margin-left: 65rpx;
+    margin-bottom: 20rpx;
+}

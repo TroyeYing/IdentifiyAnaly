@@ -1,0 +1,71 @@
+<view class="tcontainer">
+    <view class="trace_content">
+        <view class="trace_title">
+            产品信息
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">产品编号: </text>
+            <text class="trace_content_content"> No009090</text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">产品名称: </text>
+            <text class="trace_content_content"> 有机硅防水剂</text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">保质期: </text>
+            <text class="trace_content_content"> 6个月</text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">生产日期: </text>
+            <text class="trace_content_content"> 2020-06-23</text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">生产许可证 </text>
+            <text class="trace_content_content"> SCXXXXXXXX</text>
+        </view>
+    </view>
+    <view class="trace_content center">
+        <view class="trace_title">
+            生产商
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">生产商: </text>
+            <text class="trace_content_content"> 江西省九江</text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">电话: </text>
+            <text class="trace_content_content"> +867878787878</text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">邮箱: </text>
+            <text class="trace_content_content"> xxx.@xx.com</text>
+        </view>
+    </view>
+    <view class="trace_content center">
+        <view class="trace_title">
+            生产流程
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">2021.02.22 </text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">步骤一: </text>
+            <text class="trace_content_content">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">2021.03.22 </text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">步骤二: </text>
+            <text class="trace_content_content">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">2021.06.22 </text>
+        </view>
+        <view class="trace_container">
+            <text class="trace_content_title">步骤三: </text>
+            <text class="trace_content_content">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+        </view>
+       
+    </view>
+</view>

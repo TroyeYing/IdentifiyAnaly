@@ -1,0 +1,3 @@
+<view class="feedback_container">
+    <input class="weui-input" auto-focus placeholder="请输入问题" />
+</view>

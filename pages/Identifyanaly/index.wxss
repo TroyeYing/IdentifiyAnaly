@@ -1,0 +1,149 @@
+.icontainer {
+    /* padding: 30rpx; */
+    background: rgb(248, 248, 248);
+}
+
+.container_avatar {
+    width: 100%;
+    text-align: center;
+    /* border-bottom: 2rpx solid #ccc; */
+    /* padding-bottom: 40rpx; */
+    background: #054ABF;
+    border-radius: 0 0 40% 40%;
+
+}
+
+.avatarView {
+    width: 120rpx;
+    height: 120rpx;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    /* margin: 20rpx; */
+    margin-left: 315rpx;
+    /* border: 8rpx solid rgb(235, 231, 3); */
+    border: 8rpx solid #239AF8;
+    /* border: 8rpx solid rgb(235, 231, 3); */
+    /* border-top: 1rpx solid #fff; */
+
+}
+
+.userNickName {
+    font-size: 36rpx;
+    color: #fff;
+    font-weight: 700;
+    padding: 40rpx;
+}
+
+.avatar {}
+
+.title {
+    height: 80rpx;
+    line-height: 80rpx;
+    /* border-left: 10rpx solid rgb(241, 271, 115); */
+    /* border-left: 10rpx solid #494949; */
+    padding-left: 20rpx;
+    font-size: 32rpx;
+    font-weight: 800;
+
+}
+
+
+.container_title {
+    text-align: center;
+    height: 200rpx;
+    line-height: 200rpx;
+    font-weight: 600;
+    /* background: rgb(241, 211, 75); */
+    background: #054ABF;
+    border-radius: 0 0 50% 50%;
+    border-top: 1px solid #fff;
+}
+
+.data {
+    text-align: left;
+    width: 100%;
+    padding-left: 50rpx;
+}
+
+.data_content {
+    width: 100%;
+    font-size: 30rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+}
+
+.proName {
+    width: 100%;
+    text-align: center;
+    height: 70rpx;
+    line-height: 70rpx;
+    /* border: 1rpx solid #000; */
+    margin-top: 20rpx;
+    font-size: 36rpx;
+    /* box-shadow: 10px 10px 20px rgba(0,0,0,.1); */
+    /* box-shadow: 5px 5px 5px rgba(150, 150, 150, .1); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.contentName {
+    width: 100%;
+    text-align: left;
+    height: 80rpx;
+    line-height: 80rpx;
+    /* border: 1rpx solid #000; */
+    background: #fff;
+    /* margin-top: 30rpx; */
+    border-bottom: 2rpx solid #ddd;
+    padding-left: 90rpx;
+    font-size: 36rpx;
+    box-shadow: 10px 10px 5px rgba(150, 150, 150, .1);
+}
+
+.contentName {
+    position: relative;
+}
+
+.contentimage {
+    width: 40rpx;
+    height: 40rpx;
+    position: absolute;
+    left: 40rpx;
+    top: 23rpx
+}
+
+.contentarrow {
+    width: 40rpx;
+    height: 40rpx;
+    position: absolute;
+    right: 130rpx;
+    top: 23rpx
+}
+
+.info {
+    font-size: 28rpx;
+    color: #bbb;
+    position: absolute;
+    right: 150rpx;
+}
+
+.proName {
+    width: 80%;
+    text-align: center;
+    height: 115rpx;
+    line-height: 115rpx;
+    margin-top: -50rpx;
+    background: #ffff;
+    /* border: 1px solid #444; */
+    margin-left: 10%;
+    border-radius: 30rpx;
+    font-size: 36rpx;
+    box-shadow: 5px 5px 5px rgba(150, 150, 150, .1);
+    margin-bottom: 50rox;
+}
+
+
+.feedback{
+    margin-top: 30rpx;
+}

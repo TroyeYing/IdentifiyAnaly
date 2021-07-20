@@ -1,0 +1,25 @@
+.record_content{
+    height: 100%;
+    min-height: 100%;
+}
+.itemitem {
+    height: 100rpx;
+    width: 100%;
+    padding: 20rpx;
+    border-bottom: 2rpx solid #ddd;
+    position: relative;
+}
+
+image {
+    width: 80rpx;
+    height: 80rpx;
+    position: absolute;
+}
+
+.content {
+    padding-left: 100rpx;
+    font-size: 28rpx;
+    height: 50rpx;
+    
+    line-height: 50rpx;
+}

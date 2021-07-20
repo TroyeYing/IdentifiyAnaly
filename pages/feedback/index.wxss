@@ -1,0 +1,10 @@
+.feedback_container{
+    padding: 40rpx;
+
+}
+input {
+    border: 1rpx solid #ddd;
+    height: 70rpx;
+    padding-left: 10rpx;
+    border-radius: 5rpx;
+}

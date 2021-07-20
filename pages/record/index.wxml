@@ -1,0 +1,82 @@
+<view class="record_content">
+    <view class="itemitem">
+        <image src="/images/trace.png"></image>
+        <view class="content">
+            <text style="font-weight:800"> 今天的明天</text>
+        </view>
+        <view class="content" style="color: #bbb;">
+            <text>鉴真结果: </text>
+            <text> 经鉴定为真品</text>
+            <text style="margin-left:20rpx">鉴真时间: </text>
+            <text>2021.07.07</text>
+        </view>
+
+
+
+
+
+    </view>
+    <view class="itemitem">
+        <image src="/images/trace.png"></image>
+        <view class="content">
+            <text style="font-weight:800"> 今天的明天</text>
+        </view>
+        <view class="content" style="color: #bbb;">
+            <text>鉴真结果: </text>
+            <text> 经鉴定为真品</text>
+            <text style="margin-left:20rpx">鉴真时间: </text>
+            <text>2021.07.07</text>
+        </view>
+
+
+
+
+
+    </view>
+    <view class="itemitem">
+        <image src="/images/trace.png"></image>
+        <view class="content">
+            <text style="font-weight:800"> 今天的明天</text>
+        </view>
+        <view class="content" style="color: #bbb;">
+            <text>鉴真结果: </text>
+            <text> 经鉴定为真品</text>
+            <text style="margin-left:20rpx">鉴真时间: </text>
+            <text>2021.07.07</text>
+        </view>
+
+
+
+
+
+    </view>
+    <view class="itemitem">
+        <image src="/images/trace.png"></image>
+        <view class="content">
+            <text style="font-weight:800"> 今天的明天</text>
+        </view>
+        <view class="content" style="color: #bbb;">
+            <text>鉴真结果: </text>
+            <text> 经鉴定为真品</text>
+            <text style="margin-left:20rpx">鉴真时间: </text>
+            <text>2021.07.07</text>
+        </view>
+    </view>
+    <view class="itemitem">
+        <image src="/images/trace.png"></image>
+        <view class="content">
+            <text style="font-weight:800"> 今天的明天</text>
+        </view>
+        <view class="content" style="color: #bbb;">
+            <text>鉴真结果: </text>
+            <text> 经鉴定为真品</text>
+            <text style="margin-left:20rpx">鉴真时间: </text>
+            <text>2021.07.07</text>
+        </view>
+
+
+
+
+
+    </view>
+</view>

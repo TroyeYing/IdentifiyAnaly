@@ -1,0 +1,20 @@
+{
+    "pages": [
+        "pages/Identifyanaly/index",
+        "pages/index/index",
+        "pages/scan/scan",
+        "pages/result/index",
+        "pages/trace/index",
+        "pages/record/index",
+        "pages/qualification/index",
+        "pages/feedback/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#054ABF",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "white"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
