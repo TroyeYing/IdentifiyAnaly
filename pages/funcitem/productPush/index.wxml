@@ -1,6 +1,6 @@
 <view class="icontainer">
   <view class="top">
-    <input class="input" name="userName" placeholder="搜索推广历史" bindinput="userNameInput" />
+    <input class="input" name="userName" placeholder="搜索推广记录" bindinput="userNameInput" />
     <!-- <image src="/images/scan1.png" class="img" bindtap="change"></image> -->
   </view>
   <view class="addBtn" bindtap="newPush">+</view>

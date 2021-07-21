@@ -1,24 +1,41 @@
 <view class="icontainer">
+  <view class="stepTitle">01.选择推广产品</view>
   <view class="itemList">
         <view class="card" bindtap="proTrace">
             <image class="imgs" src='/images/trace.png'></image>
-            <view class="title">防伪溯源</view>
+            <view class="title">有机硅奶瓶</view>
         </view>
         <view class="card" bindtap="proRecord">
             <image class="imgs" src='/images/record.png'></image>
-            <view class="title">设备维保</view>
+            <view class="title">有机护肤霜</view>
         </view>
-        <view class="card">
-            <image class="imgs" src='/images/proInfo.png'></image>
-            <view class="title">产品周期</view>
-        </view>
-        <view class="card" bindtap="productPush">
-            <image class="imgs" src='/images/qualification.png'></image>
-            <view class="title">产品推广</view>
-        </view>
-        <view class="card" bindtap="searchHsitory">
-            <image class="imgs" src='/images/qualification.png'></image>
-            <view class="title">查询历史</view>
-        </view>
+  </view>
+  <view class="stepTitle">02.填写产品描述</view>
+  <view class="formArea">
+    <view class="formItem">
+      产品名称:
+      <input class="formInput" />
     </view>
+    <view class="formItem">
+      产品描述:
+      <input class="formInput" />
+    </view>
+    <view class="formItem">
+      建议零售单价:
+      <input class="formInput" />
+    </view>
+    <view class="formItem">
+      大客户价格:
+      <input class="formInput" />
+    </view>
+    <view class="formItem">
+      库存:
+      <input class="formInput" />
+    </view>
+    <view class="formItem">
+      交付周期:
+      <input class="formInput" />
+    </view>
+  </view>
+  <view class="formBtn">提交审核</view>
 </view>

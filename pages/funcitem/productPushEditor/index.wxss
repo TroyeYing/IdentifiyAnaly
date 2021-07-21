@@ -2,24 +2,16 @@
   background: #fff;
   color: rgb(95, 95, 95);
 }
-
-.scanQRCode{
-  width: 20px;
-  height: 20px;
+.stepTitle{
+  padding: 12px;
+  margin: 18px;
+  margin-bottom: 4px;
+  background-color: aliceblue;
+  border-radius: 12px;
 }
-
-.searchBarContainer{
-  margin: 12px;
-  padding: 4px 8px;
-  border-radius: 10px;
-  background-color: rgb(236, 236, 236);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .itemList{
   padding: 12px;
+  padding-top: 4px;
 }
 .imgs{
   width: 20vw;
@@ -40,6 +32,23 @@
   display: inline-block;
   margin: calc((100% - 84vw) / 6);
 }
-.cardLabel{
-  padding: 4px 8px;
+.formArea{
+  padding: 12px;
+  margin: 18px;
+  box-shadow:0 0 8px rgb(177, 177, 177);
+  border-radius: 12px;
+}
+.formInput{
+  background-color: aliceblue;
+  border-radius: 16px;
+  padding: 8px 12px;
+  margin: 4px 0;
+}
+.formBtn{
+  border-radius: 28px;
+  background-color: rgb(49, 146, 231);
+  color: #fff;
+  padding: 12px;
+  margin: 18px;
+  text-align: center;
 }
