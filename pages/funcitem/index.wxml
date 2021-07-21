@@ -14,7 +14,7 @@
             <image class="imgs" src='/images/record.png'></image>
             <view class="title">设备维保</view>
         </view>
-        <view class="card">
+        <view class="card" bindtap="productLifecycle">
             <image class="imgs" src='/images/proInfo.png'></image>
             <view class="title">产品周期</view>
         </view>

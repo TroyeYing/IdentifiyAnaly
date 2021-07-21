@@ -3,7 +3,7 @@
     <input class="input" name="userName" placeholder="搜索推广记录" bindinput="userNameInput" />
     <!-- <image src="/images/scan1.png" class="img" bindtap="change"></image> -->
   </view>
-  <view class="addBtn" bindtap="newPush">+</view>
+  <view class="addBtn" bindtap="pushEditor">+</view>
   <!-- <view class="swiper-container">
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
       circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
@@ -22,7 +22,7 @@
       <view class="cardLabel pNo">推广产品:0x00000</view>
       <view class="cardLabel pName">提交日期:1970-01-01 00:00:00</view>
       <view class="cardLabel pDate">推广日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel showDetail">查看详情</view>
+      <view class="cardLabel showDetail" bindtap="pushEditor">查看详情</view>
     </view>
     <view class="card" bindtap="getInfo">
       <view class="cardLabel pNo">推广范围:园区产品联盟推广</view>
@@ -30,7 +30,7 @@
       <view class="cardLabel pNo">推广产品:0x00000</view>
       <view class="cardLabel pName">提交日期:1970-01-01 00:00:00</view>
       <view class="cardLabel pDate">推广日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel showDetail">查看详情</view>
+      <view class="cardLabel showDetail" bindtap="pushEditor">查看详情</view>
     </view>
     <view class="card" bindtap="getInfo">
       <view class="cardLabel pNo">推广范围:电子商城推广</view>
@@ -38,7 +38,7 @@
       <view class="cardLabel pNo">推广产品:0x00000</view>
       <view class="cardLabel pName">提交日期:1970-01-01 00:00:00</view>
       <view class="cardLabel pDate">推广日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel showDetail">查看详情</view>
+      <view class="cardLabel showDetail" bindtap="pushEditor">查看详情</view>
     </view>
     <view class="card" bindtap="getInfo">
       <view class="cardLabel pNo">推广范围:电子商城推广</view>
@@ -46,7 +46,7 @@
       <view class="cardLabel pNo">推广产品:0x00000</view>
       <view class="cardLabel pName">提交日期:1970-01-01 00:00:00</view>
       <view class="cardLabel pDate">推广日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel showDetail">查看详情</view>
+      <view class="cardLabel showDetail" bindtap="pushEditor">查看详情</view>
     </view>
   </view>
 </view>

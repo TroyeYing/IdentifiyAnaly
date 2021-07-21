@@ -1,51 +1,45 @@
 <view class="icontainer">
-  <view class="top">
-    <input class="input" name="userName" placeholder="搜索推广历史" bindinput="userNameInput" />
-    <!-- <image src="/images/scan1.png" class="img" bindtap="change"></image> -->
+  <view class="stepTitle">选择产品以查看信息</view>
+  <view class="itemList">
+        <view class="card" bindtap="proTrace">
+            <image class="imgs" src='/images/trace.png'></image>
+            <view class="title">有机硅奶瓶</view>
+        </view>
+        <view class="card" bindtap="proRecord">
+            <image class="imgs" src='/images/record.png'></image>
+            <view class="title">有机护肤霜</view>
+        </view>
   </view>
-  <!-- <view class="swiper-container">
-    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
-      circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
-      <block wx:for="{{imgUrls}}" wx:key="unique">
-        <swiper-item>
-          <image src="{{item}}" class="picture" bindtap="swipclick" style="width:100%"/>
-        </swiper-item>
-      </block>
-    </swiper>
-  </view> -->
-  <!-- list container -->
-  <view class="cardList">
-    <view class="card" bindtap="getInfo">
-      <view class="cardLabel pNo">推广范围:园区产品联盟推广;电子商城推广</view>
-      <view class="cardLabel pProgress">推广状态:审核通过</view>
-      <view class="cardLabel pNo">推广产品:0x00000</view>
-      <view class="cardLabel pName">提交日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel pDate">推广日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel showDetail">查看详情</view>
+  <view class="stepTitle">产品基本信息</view>
+  <view class="formArea">
+    <view class="formItem">
+      编号:
+      <input class="formInput" />
     </view>
-    <view class="card" bindtap="getInfo">
-      <view class="cardLabel pNo">推广范围:园区产品联盟推广</view>
-      <view class="cardLabel pProgress">推广状态:未提交审核</view>
-      <view class="cardLabel pNo">推广产品:0x00000</view>
-      <view class="cardLabel pName">提交日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel pDate">推广日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel showDetail">查看详情</view>
+    <view class="formItem">
+      产品名称:
+      <input class="formInput" />
     </view>
-    <view class="card" bindtap="getInfo">
-      <view class="cardLabel pNo">推广范围:电子商城推广</view>
-      <view class="cardLabel pProgress">推广状态:未提交审核</view>
-      <view class="cardLabel pNo">推广产品:0x00000</view>
-      <view class="cardLabel pName">提交日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel pDate">推广日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel showDetail">查看详情</view>
-    </view>
-    <view class="card" bindtap="getInfo">
-      <view class="cardLabel pNo">推广范围:电子商城推广</view>
-      <view class="cardLabel pProgress">推广状态:审核未通过</view>
-      <view class="cardLabel pNo">推广产品:0x00000</view>
-      <view class="cardLabel pName">提交日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel pDate">推广日期:1970-01-01 00:00:00</view>
-      <view class="cardLabel showDetail">查看详情</view>
+    <view class="formItem">
+      产品描述:
+      <input class="formInput" />
     </view>
   </view>
+  <view class="stepTitle">生命周期信息</view>
+
+  <view class="formArea">
+    <view class="formItem">
+      当前阶段:
+      <input class="formInput" />
+    </view>
+    <view class="formItem">
+      预计交付:
+      <input class="formInput" />
+    </view>
+    <view class="formItem">
+      风险说明:
+      <input class="formInput" />
+    </view>
+  </view>
+  <view class="formBtn">编辑</view>
 </view>

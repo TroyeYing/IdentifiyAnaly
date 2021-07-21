@@ -3,13 +3,12 @@
     <view class="img_avatar">
       <open-data type="userAvatarUrl"></open-data>
     </view>
-
-  </view>
-  <view class="username">
-    小影子
+    <view class="username">
+      Admin
+    </view>
   </view>
 </view>
-<view>
+<view class="infoContainer">
   <view class="view-item" bindtap='clickCollect'>
     <image src='/images/personMsg.png'></image>
     <text>个人信息</text>

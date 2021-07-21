@@ -75,7 +75,7 @@ Page({
       })
   
     },
-    newPush: function () {
+    pushEditor: function () {
       wx.navigateTo({
         url: '../productPushEditor/index',
       })

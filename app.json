@@ -2,6 +2,7 @@
     "pages": [
         "pages/login/index",
         "pages/home/index",
+        "pages/funcitem/productLifecycle/index",
         "pages/funcitem/productPush/index",
         "pages/funcitem/productPushEditor/index",
         "pages/funcitem/searchHistory/index",

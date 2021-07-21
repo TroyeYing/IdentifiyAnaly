@@ -17,6 +17,11 @@ Page({
             url: '../function/record/index',
           })
     },
+    productLifecycle:function(){
+        wx.navigateTo({
+            url: '../funcitem/productLifecycle/index',
+          })
+    },
     productPush:function(){
         wx.navigateTo({
             url: '../funcitem/productPush/index',
