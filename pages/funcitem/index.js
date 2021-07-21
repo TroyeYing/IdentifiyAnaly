@@ -17,9 +17,14 @@ Page({
             url: '../function/record/index',
           })
     },
-    proQualification:function(){
+    productPush:function(){
         wx.navigateTo({
-            url: '../function/qualification/index',
+            url: '../funcitem/productPush/index',
+          })
+    },
+    searchHsitory:function(){
+        wx.navigateTo({
+            url: '../funcitem/searchHistory/index',
           })
     },
     /**

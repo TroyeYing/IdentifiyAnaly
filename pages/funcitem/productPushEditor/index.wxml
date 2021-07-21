@@ -1,11 +1,5 @@
 <view class="icontainer">
-    <!-- search bar and QR code scanner -->
-    <view class="searchBarContainer">
-        <input class="searchBar" placeholder="搜索标签数据" />
-        <image class="scanQRCode" src='/images/scan1.png'></image>
-    </view>
-    <!-- list container -->
-    <view class="itemList">
+  <view class="itemList">
         <view class="card" bindtap="proTrace">
             <image class="imgs" src='/images/trace.png'></image>
             <view class="title">防伪溯源</view>

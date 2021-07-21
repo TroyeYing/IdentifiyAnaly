@@ -1,9 +1,9 @@
 <view class="icontainer">
   <view class="top">
-    <input class="input" name="userName" placeholder="搜索标识" bindinput="userNameInput" />
-    <image src="/images/scan1.png" class="img" bindtap="change"></image>
+    <input class="input" name="userName" placeholder="搜索查询历史" bindinput="userNameInput" />
+    <!-- <image src="/images/scan1.png" class="img" bindtap="change"></image> -->
   </view>
-  <view class="swiper-container">
+  <!-- <view class="swiper-container">
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
       circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
       <block wx:for="{{imgUrls}}" wx:key="unique">
@@ -12,7 +12,7 @@
         </swiper-item>
       </block>
     </swiper>
-  </view>
+  </view> -->
   <!-- list container -->
   <view class="cardList">
     <view class="card" bindtap="getInfo">

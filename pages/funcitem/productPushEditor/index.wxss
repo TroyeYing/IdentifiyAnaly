@@ -1,0 +1,45 @@
+.icontainer {
+  background: #fff;
+  color: rgb(95, 95, 95);
+}
+
+.scanQRCode{
+  width: 20px;
+  height: 20px;
+}
+
+.searchBarContainer{
+  margin: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemList{
+  padding: 12px;
+}
+.imgs{
+  width: 20vw;
+  height: 20vw;
+  padding: 4vw;
+}
+.title{
+  text-align: center;
+  font-size: 14px;
+}
+.card{
+  width: 28vw;
+  height: 38vw;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow:0 0 8px rgb(177, 177, 177);
+  margin-bottom: 16px;
+  display: inline-block;
+  margin: calc((100% - 84vw) / 6);
+}
+.cardLabel{
+  padding: 4px 8px;
+}
